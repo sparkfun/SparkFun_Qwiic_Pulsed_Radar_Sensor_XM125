@@ -1666,112 +1666,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="0.0254" y="0.127"/>
-<vertex x="0.0254" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.0254" y="0.127"/>
-<vertex x="0.6985" y="0.127"/>
-<vertex x="0.6985" y="-0.127"/>
-<vertex x="-0.0254" y="-0.127"/>
-</polygon>
-</package>
-<package name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39270/1" locally_modified="yes">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="0.3175" y="0.127"/>
-<vertex x="0.6985" y="0.127"/>
-<vertex x="0.6985" y="-0.127"/>
-<vertex x="0.3175" y="-0.127"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="-0.3175" y="0.127"/>
-<vertex x="-0.3175" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.5334" y="0.127"/>
-<vertex x="0.5334" y="0.127"/>
-<vertex x="0.5334" y="-0.127"/>
-<vertex x="-0.5334" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-1.2319" y="0.127"/>
-<vertex x="-0.508" y="0.127"/>
-<vertex x="-0.508" y="-0.127"/>
-<vertex x="-1.2319" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="0.508" y="0.127"/>
-<vertex x="1.2319" y="0.127"/>
-<vertex x="1.2319" y="-0.127"/>
-<vertex x="0.508" y="-0.127"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39289/1" locally_modified="yes" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_3_2-NC_TRACE_SILK"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -1834,40 +1728,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Resistors">
-<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
-This library contains resistors. Reference designator:R. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 </library>
@@ -2283,43 +2143,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2543,38 +2366,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CONN-13694" x="41.91" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.622" y="11.049" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="I2C" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="JUMPER-SMT_3_2-NC_TRACE_SILK" x="33.02" y="5.08" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.02" y="6.223" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="3.937" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
-</element>
-<element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="33.02" y="7.62" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.02" y="8.763" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="33.02" y="6.477" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
-</element>
-<element name="LED" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="31.75" y="10.16" smashed="yes" rot="MR0">
-<attribute name="NAME" x="31.75" y="11.303" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="31.75" y="9.017" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
-</element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.1" y="19.05" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="34.29" y="13.97" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="38.1" y="16.51" smashed="yes"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_8MM" value="SFE_LOGO_NAME8_MM" x="31.75" y="18.415" smashed="yes"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="38.1" y="19.05" smashed="yes"/>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="36.83" y="10.795" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.068" y="10.795" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="71.12" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="37.592" y="10.795" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="36.83" y="7.62" smashed="yes">
-<attribute name="NAME" x="36.83" y="8.382" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="78.74" y="-26.67" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="36.83" y="6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R5" library="SparkFun-Resistors" package="0603" value="2.2k" x="35.56" y="10.795" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.798" y="10.795" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="69.85" y="56.515" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="36.322" y="10.795" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="44.45" y="50.8" smashed="yes"/>
 <element name="U$7" library="output" package="PWR41" value="" x="31.75" y="12.7" smashed="yes"/>
 <element name="U$10" library="output" package="#I�C#0" value="" x="37.973" y="5.08" smashed="yes" rot="MR0"/>
@@ -2583,31 +2379,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CONN-08437" x="6.35" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="5.08" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="Red" x="31.75" y="11.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="10.795" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-17976" x="31.75" y="11.43" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="31.75" y="12.065" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="4.7k" x="31.75" y="9.906" smashed="yes">
-<attribute name="NAME" x="31.75" y="10.668" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="31.75" y="9.906" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="31.75" y="9.144" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
 <element name="U$6" library="output" package="#INT#5289" value="" x="35.814" y="7.62" smashed="yes" rot="MR0"/>
+<element name="J4" library="SparkFun-Connectors" package="1X06_NO_SILK" value="" x="-25.4" y="-44.45" smashed="yes">
+<attribute name="NAME" x="-26.67" y="-43.053" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-08437" x="-25.4" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-26.67" y="-46.482" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
-<signal name="3.3V">
-<contactref element="J1" pad="2"/>
-<contactref element="J2" pad="2"/>
-<contactref element="J3" pad="2"/>
-<wire x1="5.08" y1="13.2" x2="20.32" y2="12.2" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="1.27" x2="5.08" y2="13.2" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="GND">
-<contactref element="J1" pad="1"/>
-<contactref element="J2" pad="1"/>
-<contactref element="LED" pad="1"/>
-<contactref element="J3" pad="1"/>
 <polygon width="0.2032" layer="1" isolate="0.3048">
 <vertex x="0" y="0"/>
 <vertex x="25.4" y="0"/>
@@ -2620,77 +2400,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="25.4" y="25.4"/>
 <vertex x="0" y="25.4"/>
 </polygon>
+</signal>
+<signal name="2">
+<contactref element="J1" pad="2"/>
+<contactref element="J2" pad="2"/>
+<wire x1="5.08" y1="13.2" x2="20.32" y2="12.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="1">
+<contactref element="J1" pad="1"/>
+<contactref element="J2" pad="1"/>
 <wire x1="5.08" y1="14.2" x2="20.32" y2="11.2" width="0" layer="19" extent="1-1"/>
-<wire x1="32.2707" y1="10.16" x2="5.08" y2="14.2" width="0" layer="19" extent="1-16"/>
-<wire x1="6.35" y1="1.27" x2="5.08" y2="14.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SCL">
-<contactref element="R5" pad="1"/>
-<contactref element="J1" pad="4"/>
-<contactref element="J2" pad="4"/>
-<contactref element="J3" pad="4"/>
-<wire x1="35.56" y1="9.945" x2="20.32" y2="14.2" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="11.2" x2="35.56" y2="9.945" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="1.27" x2="5.08" y2="11.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SDA">
-<contactref element="R2" pad="1"/>
-<contactref element="J1" pad="3"/>
-<contactref element="J2" pad="3"/>
-<contactref element="J3" pad="3"/>
-<wire x1="36.83" y1="9.945" x2="20.32" y2="13.2" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="12.2" x2="36.83" y2="9.945" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="1.27" x2="5.08" y2="12.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<wire x1="30.9102625" y1="9.906" x2="31.75" y2="10.7457375" width="0.254" layer="1"/>
-<wire x1="31.75" y1="10.7457375" x2="31.75" y2="11.176" width="0.254" layer="1"/>
-<wire x1="32.004" y1="11.43" x2="31.75" y2="11.176" width="0.254" layer="1"/>
-<contactref element="D1" pad="A"/>
-<wire x1="32.627" y1="11.43" x2="32.004" y2="11.43" width="0.254" layer="1"/>
-<contactref element="R3" pad="1"/>
-<wire x1="30.9" y1="9.906" x2="30.9102625" y2="9.906" width="0.254" layer="1"/>
-</signal>
-<signal name="N$1">
-<contactref element="LED" pad="2"/>
-<wire x1="31.69186875" y1="12.24886875" x2="31.69186875" y2="12.3063" width="0.254" layer="1"/>
-<via x="31.69186875" y="12.3063" extent="1-16" drill="0.3048"/>
-<wire x1="31.69186875" y1="12.3063" x2="31.69186875" y2="10.9415" width="0.254" layer="16"/>
-<wire x1="31.43885" y1="10.36955" x2="31.2293" y2="10.16" width="0.254" layer="16"/>
-<wire x1="31.69186875" y1="10.9415" x2="31.43885" y2="10.68848125" width="0.254" layer="16"/>
-<wire x1="31.43885" y1="10.68848125" x2="31.43885" y2="10.36955" width="0.254" layer="16"/>
-<contactref element="D1" pad="C"/>
-<wire x1="30.873" y1="11.43" x2="31.69186875" y2="12.24886875" width="0.254" layer="1"/>
-</signal>
-<signal name="N$5">
-<contactref element="JP2" pad="1"/>
-<contactref element="R4" pad="2"/>
-<wire x1="37.68" y1="7.62" x2="33.5407" y2="7.62" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$2">
-<contactref element="R2" pad="2"/>
-<contactref element="I2C" pad="3"/>
-<wire x1="31.9786" y1="5.08" x2="36.83" y2="11.645" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$6">
-<contactref element="R5" pad="2"/>
-<contactref element="I2C" pad="1"/>
-<wire x1="34.0614" y1="5.08" x2="35.56" y2="11.645" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="3.3V_SW">
-<contactref element="I2C" pad="2"/>
-<contactref element="JP2" pad="2"/>
-<contactref element="R3" pad="2"/>
-<wire x1="33.02" y1="5.08" x2="32.4993" y2="7.62" width="0" layer="19" extent="16-16"/>
-<wire x1="32.6" y1="9.906" x2="33.02" y2="5.08" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="!INT">
-<contactref element="R4" pad="1"/>
-<contactref element="J3" pad="6"/>
-<wire x1="19.05" y1="1.27" x2="35.98" y2="7.62" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="DISABLE">
-<contactref element="J3" pad="5"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2714,16 +2433,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
