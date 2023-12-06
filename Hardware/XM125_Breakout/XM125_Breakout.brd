@@ -1957,24 +1957,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X03_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - 3 Pin No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="1X02_NO_SILK">
 <description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -2822,10 +2804,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CONN-13694" x="44.45" y="38.1" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="49.022" y="36.449" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="1X03_NO_SILK" value="" x="45.72" y="1.27" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.99" y="-0.127" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="46.99" y="3.302" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
-</element>
 <element name="J5" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="38.1" y="1.27" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.37" y="-0.127" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="3.302" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
@@ -2887,6 +2865,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="71.12" y="17.78" smashed="yes"/>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="76.2" y="17.78" smashed="yes"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="74.93" y="26.67" smashed="yes"/>
+<element name="J4" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="2.54" y="-30.48" smashed="yes">
+<attribute name="NAME" x="1.27" y="-29.083" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-09696" x="2.54" y="-30.48" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="1.27" y="-32.512" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="1.8V">
@@ -2926,6 +2909,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="C15" pad="1"/>
 <contactref element="S2" pad="3"/>
 <contactref element="S2" pad="4"/>
+<contactref element="S1" pad="4"/>
+<contactref element="S1" pad="3"/>
 <wire x1="69.596" y1="33.1978" x2="74.4093" y2="36.83" width="0" layer="19" extent="1-16"/>
 <wire x1="66.04" y1="32.6" x2="69.596" y2="33.1978" width="0" layer="19" extent="1-1"/>
 <wire x1="63.5" y1="32.6" x2="66.04" y2="32.6" width="0" layer="19" extent="1-1"/>
@@ -2939,6 +2924,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="37.09" y1="45.085" x2="39.37" y2="46.14" width="0" layer="19" extent="1-1"/>
 <wire x1="55.626" y1="13.335" x2="45.72" y2="28.6893" width="0" layer="19" extent="1-16"/>
 <wire x1="61.214" y1="13.335" x2="55.626" y2="13.335" width="0" layer="19" extent="1-1"/>
+<wire x1="61.214" y1="3.175" x2="61.214" y2="13.335" width="0" layer="19" extent="1-1"/>
+<wire x1="55.626" y1="3.175" x2="61.214" y2="3.175" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="38.6" x2="37.09" y2="45.085" width="0" layer="19" extent="1-1"/>
 <wire x1="1.27" y1="24.13" x2="6.35" y2="38.6" width="0" layer="19" extent="1-1"/>
 <wire x1="15.9766" y1="9.144" x2="1.27" y2="24.13" width="0" layer="19" extent="16-16"/>
@@ -3146,24 +3133,28 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </signal>
 <signal name="WAKE_UP">
 <contactref element="U1" pad="15"/>
+<contactref element="S2" pad="1"/>
+<contactref element="S2" pad="2"/>
+<wire x1="55.626" y1="17.145" x2="61.214" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="29.9974" y1="25.654" x2="55.626" y2="17.145" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="J2" pad="4"/>
 <contactref element="U1" pad="17"/>
 <contactref element="J3" pad="4"/>
 <contactref element="J4" pad="3"/>
-<wire x1="29.9974" y1="23.114" x2="45.72" y2="39.6" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="1.27" x2="29.9974" y2="23.114" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="36.6" x2="29.9974" y2="23.114" width="0" layer="19" extent="1-1"/>
+<wire x1="29.9974" y1="23.114" x2="45.72" y2="39.6" width="0" layer="19" extent="1-16"/>
+<wire x1="6.35" y1="36.6" x2="29.9974" y2="23.114" width="0" layer="19" extent="1-16"/>
+<wire x1="7.62" y1="-30.48" x2="29.9974" y2="23.114" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SDA">
 <contactref element="J2" pad="3"/>
 <contactref element="U1" pad="18"/>
 <contactref element="J3" pad="3"/>
 <contactref element="J4" pad="2"/>
-<wire x1="29.9974" y1="21.844" x2="45.72" y2="38.6" width="0" layer="19" extent="1-1"/>
-<wire x1="43.18" y1="1.27" x2="29.9974" y2="21.844" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="37.6" x2="29.9974" y2="21.844" width="0" layer="19" extent="1-1"/>
+<wire x1="29.9974" y1="21.844" x2="45.72" y2="38.6" width="0" layer="19" extent="1-16"/>
+<wire x1="6.35" y1="37.6" x2="29.9974" y2="21.844" width="0" layer="19" extent="1-16"/>
+<wire x1="5.08" y1="-30.48" x2="29.9974" y2="21.844" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="XM125_RESET">
 <contactref element="U1" pad="14"/>
@@ -3204,11 +3195,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="XM125_GPIO2/BOOT0">
 <contactref element="U1" pad="26"/>
 <contactref element="J8" pad="3"/>
-<contactref element="S2" pad="1"/>
-<contactref element="S2" pad="2"/>
-<wire x1="55.626" y1="17.145" x2="61.214" y2="17.145" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="19.05" x2="55.626" y2="17.145" width="0" layer="19" extent="1-1"/>
-<wire x1="29.9974" y1="11.684" x2="49.53" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="29.9974" y1="11.684" x2="49.53" y2="19.05" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="XM125_GPIO1">
 <contactref element="U1" pad="25"/>
@@ -3245,18 +3232,18 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="R13" pad="2"/>
 <wire x1="45.72" y1="29.7307" x2="45.72" y2="30.06" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="INT">
-<contactref element="J4" pad="1"/>
-</signal>
 <signal name="N$12">
 <contactref element="C12" pad="1"/>
 <contactref element="U4" pad="4"/>
 <wire x1="29.21" y1="40.22" x2="31.49" y2="41.275" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$19">
-<contactref element="S1" pad="4"/>
-<contactref element="S1" pad="3"/>
-<wire x1="55.626" y1="3.175" x2="61.214" y2="3.175" width="0" layer="19" extent="1-1"/>
+<signal name="XM125_I2C_ADDRESS">
+<contactref element="U1" pad="20"/>
+<contactref element="J4" pad="4"/>
+<wire x1="10.16" y1="-30.48" x2="29.9974" y2="19.304" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="INT">
+<contactref element="J4" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
