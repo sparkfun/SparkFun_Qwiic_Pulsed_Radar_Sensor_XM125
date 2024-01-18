@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -41,7 +41,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -189,7 +189,7 @@
 <wire x1="0" y1="0" x2="0" y2="50.8" width="0.254" layer="20"/>
 <wire x1="0" y1="50.8" x2="25.4" y2="50.8" width="0.254" layer="20"/>
 <text x="0.381" y="36.195" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">v01</text>
-<text x="55.88" y="41.91" size="1.778" layer="51" font="vector" align="top-left">Solder Mask: Black
+<text x="55.88" y="41.91" size="1.778" layer="51" font="vector" align="top-left">Solder Mask: Red
 Thickness: 1.6mm
 Two layer design
 Finish: HASL Lead-Free
@@ -12287,11 +12287,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="9.652" y="27.94" extent="1-16" drill="0.3048"/>
 <wire x1="4.445" y1="27.94" x2="4.445" y2="37.719" width="0.508" layer="16"/>
 <wire x1="9.652" y1="29.122" x2="9.652" y2="27.94" width="0.508" layer="16"/>
-<wire x1="9.652" y1="27.94" x2="9.652" y2="27.432" width="0.508" layer="16"/>
+<wire x1="9.652" y1="27.94" x2="10.16" y2="27.432" width="0.508" layer="16"/>
 <via x="7.112" y="27.94" extent="1-16" drill="0.3048"/>
 <wire x1="7.112" y1="27.94" x2="9.652" y2="27.94" width="0.508" layer="1"/>
 <wire x1="4.445" y1="27.94" x2="7.112" y2="27.94" width="0.508" layer="16"/>
-<wire x1="9.652" y1="27.432" x2="10.668" y2="27.432" width="0.508" layer="16"/>
+<wire x1="10.16" y1="27.432" x2="10.668" y2="27.432" width="0.508" layer="16"/>
 <wire x1="10.668" y1="27.432" x2="11.85" y2="27.432" width="0.508" layer="16"/>
 <wire x1="11.3999" y1="29.022" x2="10.668" y2="28.2901" width="0.508" layer="16"/>
 <wire x1="10.668" y1="28.2901" x2="10.668" y2="27.432" width="0.508" layer="16"/>
