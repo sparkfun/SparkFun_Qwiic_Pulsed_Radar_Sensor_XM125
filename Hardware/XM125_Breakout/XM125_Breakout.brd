@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -41,7 +41,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
@@ -188,7 +188,7 @@
 <wire x1="25.4" y1="0" x2="25.4" y2="50.8" width="0.254" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="50.8" width="0.254" layer="20"/>
 <wire x1="0" y1="50.8" x2="25.4" y2="50.8" width="0.254" layer="20"/>
-<text x="0.381" y="36.195" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">v01</text>
+<text x="0.381" y="36.195" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">v10</text>
 <text x="55.88" y="41.91" size="1.778" layer="51" font="vector" align="top-left">Solder Mask: Red
 Thickness: 1.6mm
 Two layer design
@@ -1908,46 +1908,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
 <text x="-1.905" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Switches">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_SMD_5.2MM">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -11596,6 +11556,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TACTILE_SWITCH_SMD_5.2MM">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
+<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
+<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11865,16 +11865,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="2.667" y="13.97" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="-0.762" y="13.97" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="8.89" y="3.175" smashed="yes">
-<attribute name="NAME" x="8.89" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-14139" x="8.89" y="3.175" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="8.89" y="0.508" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="16.51" y="3.175" smashed="yes">
-<attribute name="NAME" x="16.51" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-14139" x="16.51" y="3.175" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="16.51" y="0.508" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
 <element name="C14" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="8.89" y="42.545" smashed="yes" rot="MR0">
 <attribute name="NAME" x="8.89" y="43.307" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="8.89" y="42.545" size="1.778" layer="28" font="vector" ratio="15" rot="MR0" display="off"/>
@@ -11891,7 +11881,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-15.24" y="-35.56" smashed="yes">
 <attribute name="DESIGNER" value="M. Chodikov" x="-15.24" y="-35.56" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="v01" x="-15.24" y="-35.56" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="v10" x="-15.24" y="-35.56" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="2.794" y="43.18" smashed="yes"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="5.08" smashed="yes" rot="MR0"/>
@@ -11917,20 +11907,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CAP-07888" x="12.7" y="27.432" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 <attribute name="VALUE" x="12.7" y="28.194" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="100k" x="9.652" y="29.972" smashed="yes" rot="MR90">
-<attribute name="NAME" x="10.414" y="29.972" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07828" x="9.652" y="29.972" size="1.778" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
-<attribute name="VALUE" x="8.89" y="29.972" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
-</element>
 <element name="U3" library="XM125" package="SOT23-5" value="RT9080-18GJ5" x="11.43" y="21.59" smashed="yes" rot="MR180">
 <attribute name="NAME" x="9.652" y="19.431" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 <attribute name="PROD_ID" value="VREG-21045" x="11.43" y="21.59" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 <attribute name="VALUE" x="9.652" y="24.384" size="0.6096" layer="28" ratio="20" rot="MR180"/>
-</element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="100k" x="11.43" y="25.019" smashed="yes" rot="MR180">
-<attribute name="NAME" x="11.43" y="24.257" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07828" x="11.43" y="25.019" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
-<attribute name="VALUE" x="11.43" y="25.781" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="C17" library="SparkFun-Capacitors" package="0603" value="2.2uF" x="8.89" y="21.59" smashed="yes" rot="MR270">
 <attribute name="NAME" x="8.128" y="21.59" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
@@ -12048,6 +12028,18 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$48" library="output" package="#I2C_ADDR#12" value="" x="19.05" y="20.32" smashed="yes" rot="MR0"/>
 <element name="U$55" library="output" package="#WAKE_UP#12" value="" x="19.177" y="7.62" smashed="yes" rot="MR0"/>
 <element name="U$56" library="output" package="##RESET#13" value="" x="4.826" y="7.62" smashed="yes" rot="MR0"/>
+<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="16.51" y="3.175" smashed="yes">
+<attribute name="NAME" x="16.51" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-08247" x="16.51" y="3.175" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SF_SKU" value="COM-08720" x="16.51" y="3.175" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="16.51" y="0.508" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="8.89" y="3.175" smashed="yes">
+<attribute name="NAME" x="8.89" y="5.842" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-08247" x="8.89" y="3.175" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SF_SKU" value="COM-08720" x="8.89" y="3.175" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="8.89" y="0.508" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="1.8V">
@@ -12080,9 +12072,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="U4" pad="4"/>
 <contactref element="U3" pad="1"/>
 <contactref element="C17" pad="1"/>
-<contactref element="R4" pad="1"/>
-<contactref element="S2" pad="3"/>
-<contactref element="S2" pad="4"/>
 <contactref element="U1" pad="1"/>
 <contactref element="J7" pad="5"/>
 <wire x1="14.0001" y1="29.022" x2="14.986" y2="29.022" width="0.508" layer="16"/>
@@ -12090,7 +12079,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="15.775" y1="29.022" x2="15.875" y2="29.122" width="0.508" layer="16"/>
 <wire x1="10.48" y1="22.8901" x2="10.48" y2="23.876" width="0.508" layer="16"/>
 <wire x1="10.48" y1="23.876" x2="10.48" y2="24.919" width="0.508" layer="16"/>
-<wire x1="10.48" y1="24.919" x2="10.58" y2="25.019" width="0.508" layer="16"/>
 <wire x1="10.48" y1="23.876" x2="8.89" y2="23.876" width="0.508" layer="16"/>
 <via x="8.509" y="28.956" extent="1-16" drill="0.3048"/>
 <wire x1="16.256" y1="24.13" x2="16.256" y2="26.67" width="0.508" layer="16"/>
@@ -12131,9 +12119,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="8.509" y1="33.909" x2="8.509" y2="33.395" width="0.508" layer="16"/>
 <wire x1="7.62" y1="34.71" x2="7.708" y2="34.71" width="0.508" layer="16"/>
 <wire x1="7.708" y1="34.71" x2="8.509" y2="33.909" width="0.508" layer="16"/>
-<wire x1="13.716" y1="1.27" x2="19.304" y2="1.27" width="0.508" layer="1"/>
-<wire x1="20.32" y1="4.064" x2="19.304" y2="3.048" width="0.508" layer="1"/>
-<wire x1="19.304" y1="1.27" x2="19.304" y2="3.048" width="0.508" layer="1"/>
+<wire x1="19.304" y1="3.048" x2="20.32" y2="4.064" width="0.508" layer="1"/>
 <via x="20.32" y="4.064" extent="1-16" drill="0.3048"/>
 <wire x1="20.32" y1="4.064" x2="20.32" y2="10.922" width="0.508" layer="16"/>
 <wire x1="18.669" y1="12.573" x2="20.32" y2="10.922" width="0.508" layer="16"/>
@@ -12166,6 +12152,13 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="6.477" y1="18.796" x2="6.477" y2="23.749" width="0.508" layer="16"/>
 <wire x1="5.4896" y1="26.035" x2="5.4896" y2="27.5876" width="0.508" layer="1"/>
 <wire x1="5.4896" y1="27.5876" x2="6.858" y2="28.956" width="0.508" layer="1"/>
+<contactref element="S1" pad="3"/>
+<contactref element="S1" pad="4"/>
+<wire x1="19.304" y1="1.27" x2="19.304" y2="3.048" width="0.508" layer="1"/>
+<contactref element="U3" pad="3"/>
+<wire x1="12.38" y1="22.8901" x2="12.38" y2="24.919" width="0.508" layer="16"/>
+<wire x1="10.48" y1="22.8901" x2="12.38" y2="22.8901" width="0" layer="19" extent="16-16"/>
+<wire x1="13.716" y1="1.27" x2="19.304" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="GND2"/>
@@ -12188,8 +12181,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="U3" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C8" pad="2"/>
-<contactref element="S1" pad="4"/>
-<contactref element="S1" pad="3"/>
 <contactref element="J4" pad="1"/>
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="10"/>
@@ -12257,6 +12248,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="15.24" y="17.78" extent="1-16" drill="0.3048"/>
 <via x="11.43" y="24.003" extent="1-16" drill="0.3048"/>
 <via x="13.97" y="24.13" extent="1-16" drill="0.3048"/>
+<contactref element="S2" pad="3"/>
+<contactref element="S2" pad="4"/>
 </signal>
 <signal name="V_USB">
 <contactref element="J1" pad="VBUS1"/>
@@ -12266,7 +12259,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J7" pad="3"/>
 <contactref element="C16" pad="1"/>
 <contactref element="U2" pad="1"/>
-<contactref element="R1" pad="1"/>
 <via x="9.779" y="43.688" extent="1-16" drill="0.3048"/>
 <wire x1="9.74" y1="42.545" x2="9.779" y2="42.584" width="0.254" layer="16"/>
 <wire x1="9.95385625" y1="43.8582" x2="9.9492" y2="43.8582" width="0.508" layer="1"/>
@@ -12286,7 +12278,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="6.731" y1="40.005" x2="4.445" y2="37.719" width="0.508" layer="16"/>
 <via x="9.652" y="27.94" extent="1-16" drill="0.3048"/>
 <wire x1="4.445" y1="27.94" x2="4.445" y2="37.719" width="0.508" layer="16"/>
-<wire x1="9.652" y1="29.122" x2="9.652" y2="27.94" width="0.508" layer="16"/>
 <wire x1="9.652" y1="27.94" x2="10.16" y2="27.432" width="0.508" layer="16"/>
 <via x="7.112" y="27.94" extent="1-16" drill="0.3048"/>
 <wire x1="7.112" y1="27.94" x2="9.652" y2="27.94" width="0.508" layer="1"/>
@@ -12305,6 +12296,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="1.27" y1="20.32" x2="2.794" y2="21.844" width="0.508" layer="16"/>
 <wire x1="2.794" y1="26.289" x2="4.445" y2="27.94" width="0.508" layer="16"/>
 <wire x1="2.794" y1="21.844" x2="2.794" y2="26.289" width="0.508" layer="16"/>
+<contactref element="U2" pad="3"/>
+<wire x1="10.475" y1="30.922" x2="11.3999" y2="30.922" width="0.2032" layer="16"/>
+<wire x1="10.375" y1="30.822" x2="10.475" y2="30.922" width="0.2032" layer="16"/>
+<wire x1="11.3999" y1="29.022" x2="11.3999" y2="30.922" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="J1" pad="A6"/>
@@ -12529,19 +12524,19 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="9.246" y1="12.09" x2="8.001" y2="13.335" width="0.2032" layer="16"/>
 </signal>
 <signal name="XM125_GPIO2/BOOT0">
-<contactref element="S2" pad="1"/>
-<contactref element="S2" pad="2"/>
 <contactref element="U1" pad="26"/>
-<wire x1="13.716" y1="5.08" x2="16.51" y2="5.08" width="0.254" layer="1"/>
 <contactref element="J8" pad="3"/>
-<wire x1="16.51" y1="5.08" x2="19.304" y2="5.08" width="0.254" layer="1"/>
 <wire x1="19.9104" y1="23.495" x2="17.78" y2="23.495" width="0.2032" layer="1"/>
 <wire x1="19.9104" y1="23.495" x2="21.336" y2="23.495" width="0.2032" layer="1"/>
 <wire x1="21.717" y1="23.876" x2="21.717" y2="30.607" width="0.2032" layer="1"/>
 <wire x1="21.336" y1="23.495" x2="21.717" y2="23.876" width="0.2032" layer="1"/>
 <wire x1="21.717" y1="30.607" x2="24.13" y2="33.02" width="0.2032" layer="1"/>
 <wire x1="17.78" y1="23.495" x2="16.51" y2="22.225" width="0.2032" layer="1"/>
-<wire x1="16.51" y1="22.225" x2="16.51" y2="5.08" width="0.2032" layer="1"/>
+<wire x1="16.51" y1="5.08" x2="16.51" y2="22.225" width="0.2032" layer="1"/>
+<contactref element="S1" pad="1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="13.716" y1="5.08" x2="16.51" y2="5.08" width="0.2032" layer="1"/>
+<wire x1="16.51" y1="5.08" x2="19.304" y2="5.08" width="0.2032" layer="1"/>
 </signal>
 <signal name="XM125_GPIO1">
 <contactref element="U1" pad="25"/>
@@ -12616,19 +12611,6 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="22.9108" y1="19.0470125" x2="24.13" y2="20.2662125" width="0.2032" layer="1"/>
 <wire x1="21.844" y1="15.875" x2="22.9108" y2="16.9418" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$13">
-<contactref element="U2" pad="3"/>
-<contactref element="R1" pad="2"/>
-<wire x1="9.652" y1="30.822" x2="10.375" y2="30.822" width="0.2032" layer="16"/>
-<wire x1="10.475" y1="30.922" x2="11.3999" y2="30.922" width="0.2032" layer="16"/>
-<wire x1="10.375" y1="30.822" x2="10.475" y2="30.922" width="0.2032" layer="16"/>
-</signal>
-<signal name="N$20">
-<contactref element="U3" pad="3"/>
-<contactref element="R4" pad="2"/>
-<wire x1="12.38" y1="22.8901" x2="12.38" y2="24.919" width="0.508" layer="16"/>
-<wire x1="12.38" y1="24.919" x2="12.28" y2="25.019" width="0.508" layer="16"/>
-</signal>
 <signal name="WAKE_UP">
 <contactref element="U1" pad="15"/>
 <contactref element="J12" pad="1"/>
@@ -12638,15 +12620,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </signal>
 <signal name="!XM125_RESET">
 <contactref element="U1" pad="14"/>
-<contactref element="S1" pad="1"/>
-<contactref element="S1" pad="2"/>
 <contactref element="J9" pad="1"/>
 <wire x1="1.27" y1="7.62" x2="5.461" y2="7.62" width="0.2032" layer="1"/>
 <wire x1="5.461" y1="7.62" x2="7.747" y2="7.62" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="6.477" x2="8.89" y2="5.08" width="0.2032" layer="1"/>
 <wire x1="8.89" y1="6.477" x2="7.747" y2="7.62" width="0.2032" layer="1"/>
-<wire x1="6.096" y1="5.08" x2="8.89" y2="5.08" width="0.2032" layer="1"/>
-<wire x1="8.89" y1="5.08" x2="11.684" y2="5.08" width="0.2032" layer="1"/>
 <contactref element="J13" pad="10"/>
 <wire x1="7.747" y1="7.62" x2="9.017" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="13.97" y1="8.89" x2="15.24" y2="10.16" width="0.2032" layer="1"/>
@@ -12655,6 +12633,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="9.017" y1="8.89" x2="13.97" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="5.4896" y1="9.525" x2="5.4896" y2="7.6486" width="0.2032" layer="1"/>
 <wire x1="5.4896" y1="7.6486" x2="5.461" y2="7.62" width="0.2032" layer="1"/>
+<contactref element="S2" pad="1"/>
+<contactref element="S2" pad="2"/>
+<wire x1="6.096" y1="5.08" x2="8.89" y2="5.08" width="0.2032" layer="1"/>
+<wire x1="8.89" y1="5.08" x2="11.684" y2="5.08" width="0.2032" layer="1"/>
 </signal>
 <signal name="!XM125_INT">
 <contactref element="R13" pad="1"/>
