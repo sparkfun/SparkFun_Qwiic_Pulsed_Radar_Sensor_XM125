@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME>
+SparkFun Qwiic Pulsed Coherent Radar Sensor - XM125
 ========================================
 
 [![SparkFun Pulsed Coherent Radar Sensor – Acconeer XM125 (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/4/8/6/5/SEN-24540-Pulsed-Coherent-Radar-Sensor-Feature.jpg)](https://www.sparkfun.com/products/24540)
