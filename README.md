@@ -18,7 +18,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_Qwiic_XM125_Arduino_Library)** - Arduino library for the SparkFun Qwiic Pulsed Coherent Radar Sensor - XM125.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the SparkFUn Qwiic Pulsed Coherent Radar Sensor - XM125.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Qwiic_Pulsed_Radar_Sensor_XM125)** - Basic hookup guide for the SparkFUn Qwiic Pulsed Coherent Radar Sensor - XM125.
 
 Product Versions
 ----------------
