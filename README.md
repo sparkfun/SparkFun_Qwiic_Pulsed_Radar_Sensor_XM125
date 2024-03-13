@@ -1,41 +1,32 @@
 SparkFun <PRODUCT NAME>
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun Pulsed Coherent Radar Sensor – Acconeer XM125 (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/4/8/6/5/SEN-24540-Pulsed-Coherent-Radar-Sensor-Feature.jpg)](https://www.sparkfun.com/products/24540)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Pulsed Coherent Radar Sensor – Acconeer XM125 (Qwiic) (SEN-24540)*](https://www.sparkfun.com/products/24540)
 
 <Basic description of the part.>
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
+* **/Documentation** - Datasheets, additional product information
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+  * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Library](https://github.com/sparkfun/SparkFun_Qwiic_XM125_Arduino_Library)** - Arduino library for the SparkFun Qwiic Pulsed Coherent Radar Sensor - XM125.
+* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the SparkFUn Qwiic Pulsed Coherent Radar Sensor - XM125.
 
 Product Versions
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [SEN-24540](https://www.sparkfun.com/products/24540) - Initial Release
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* V1.0 - Intial Release
 
 License Information
 -------------------
