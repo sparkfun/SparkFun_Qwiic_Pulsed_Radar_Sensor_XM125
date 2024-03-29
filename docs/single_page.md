@@ -27,10 +27,10 @@ icon: fontawesome/solid/scroll
 --8<-- "./docs/arduino_examples.md"
 
 # Installing the Acconeer Python Exploration Tool
---8<-- ".docs/installing_acconeer_python_exploration_tool.md"
+--8<-- "./docs/installing_acconeer_python_exploration_tool.md"
 
 # Getting Started with the Acconeer Python Exploration Tool
---8<-- ".docs/acconeer_python_exploration_tool.md"
+--8<-- "./docs/acconeer_python_exploration_tool.md"
 
 # Troubleshooting
 --8<-- "./docs/troubleshooting.md"
