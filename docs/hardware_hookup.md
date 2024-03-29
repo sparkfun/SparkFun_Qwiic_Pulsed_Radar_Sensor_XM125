@@ -34,6 +34,8 @@ For this example, we will use the IoT RedBoard - ESP32 and its associated cable.
   </table>
 </div>
 
+!!! note
+    For users that are testing the XM125 to detect objects from across the room, you may want to consider using a [3rd hand](https://www.sparkfun.com/products/19944) to hold the board up.
 
 
 ### Connecting via PTH
@@ -69,9 +71,18 @@ For temporary connections to the PTHs, you could use IC hooks to test out the pi
 <!-- ----------WHITE SPACE BETWEEN GRID CARDS---------- -->
 </div>
 
-It is recommended to have a low profile when connecting headers or wires to the SparkFun Pulsed Coherent Radar Sensor to limit the amount of reflections. For users connecting IC hooks, we recommend placing them flush with the board or hooking them from the bottom side. For users soldering to the board, make sure that there are no headers or wires protruding in front of the sensor.
+It is recommended to have a low profile when connecting headers or wires to the SparkFun Pulsed Coherent Radar Sensor to limit the amount of reflections. For users connecting IC hooks, we recommend placing them flush with the board or hooking them from the bottom side. Below is an example of the IC hooks connected from the sides when measuring GPIO0.
 
-The image below shows straight header pins being soldered to the PTHs. For users that are using the breadboard, we recommend using [jumper wires](https://www.sparkfun.com/products/124) that are close to the board rather than having them protruding in front of the sensor.
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/SEN-24540-Pulsed_Coherent_Radar_Acconeer_XM125_A121_Arduino_IoT_RedBoard_ESP32_Qwiic_GPIO0.jpg"><img src="../assets/img/SEN-24540-Pulsed_Coherent_Radar_Acconeer_XM125_A121_Arduino_IoT_RedBoard_ESP32_Qwiic_GPIO0.jpg" width="600px" height="600px" alt="IC Hooks Connected to PTH from the Side"></a></td>
+    </tr>
+  </table>
+</div>
+
+
+For users soldering to the board, make sure that there are no headers or wires protruding in front of the sensor. The image below shows straight header pins being soldered to the PTHs. For users that are using the breadboard, we recommend using [jumper wires](https://www.sparkfun.com/products/124) that are close to the board rather than having them protruding in front of the sensor.
 
 <div style="text-align: center;">
   <table>

@@ -240,8 +240,11 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Hookup: hardware_hookup.md
     - Installing the Arduino Library: arduino_library.md
-    - Installing XM125 Firmware: installing_xm125_firmware.md
+    - Installing the STM32CubeProgrammer: installing_stm32cubeprogrammer.md
+    - Flashing Firmware to the XM125: flashing_firmware_xm125.md
     - Arduino Examples: arduino_examples.md
+    - Installing the Acconeer Python Exploration Tool: installing_acconeer_python_exploration_tool.md
+    - Getting Started with the Acconeer Python Exploration Tool: acconeer_python_exploration_tool.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

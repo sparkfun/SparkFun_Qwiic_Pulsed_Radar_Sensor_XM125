@@ -2,20 +2,12 @@ The XM125 uses different firmware for different applications. You will need to p
 
 
 
-### Installing STM32CubeProgrammer
-
-Head over to STMicroelectronics, click on the **Get Software** button. This will scroll down to the bottom of the page. Select the STM32CubeProgrammer for your OS to install. After downloading, unzip the the STM32CubeProgrammer and click on the installer. Follow the prompts to install the software.
-
-<div style="text-align: center"><a href="https://www.st.com/en/development-tools/stm32cubeprog.html" class="md-button">Download the STM32Cube Programmer Here!</a></div>
-
-
-
 ### Downloading Firmware
 
 !!! note
     Arduino examples 1-5 with the default firmware (i.e. _i2c_presence_detector.bin_) that is loaded on the SparkFun Pulsed Coherent Radar Sensor - Acconeer XM125 (Qwiic). For Arduino examples 6-9, you will need to load the distance detection firmware (i.e. _i2c_distance_detector.bin_)
 
-Each application requires a specific firmware to be flashed on the XM125. By default, the presence detection firmware (i.e. _i2c_presence_detector.bin_) is loaded on the SparkFun Pulsed Coherent Radar Sensor - Acconeer XM125 (Qwiic). For users that are interested in loading other firmware, we recommend heading over Acconeer's developer site to download the latest firmware. At the time of writing, this should be located under **Developer Tools & Support** > **A121 Docs & Software** > **XM125 / XE125**> **Acconeer XM125 A121 (SDK for XM125)**.
+Each application requires a specific firmware to be flashed on the XM125. By default, the presence detection firmware (i.e. _i2c_presence_detector.bin_) is loaded on the SparkFun Pulsed Coherent Radar Sensor - Acconeer XM125 (Qwiic). For users that are interested in loading other firmware, we recommend heading over Acconeer's developer site to download the latest firmware. At the time of writing, this should be located under **Developer Tools & Support** > **A121 Docs & Software** > **XM125 / XE125** > **Acconeer XM125 A121 (SDK for XM125)**.
 
 <div style="text-align: center"><a href="https://developer.acconeer.com/home/a121-docs-software/xm125-xe125/" class="md-button">Download the XM125 Firmware!</a></div>
 
@@ -98,7 +90,7 @@ Click the **Download** button (the second button on the left navigation bar). Th
 </div>
 
 
-Since the firmware for the presence detection is already flashed to the board, we will flash the firmware for the distance detection (i.e. **i2c_distance_detector.bin**). Head to the folder where you downloaded and unzipped the firmware.
+Since the firmware for the presence detection is already flashed to the board, we will flash the firmware for the distance detection (i.e. **i2c_distance_detector.bin**). Head to the folder where you downloaded and unzipped the firmware. In this case, you will need to head to: .. > **acconeer_xm125_a121-v1_5_0** > **xm125** > **out**. The version number will change depending on when you downloaded the firmware. Select **i2c_distance_detector.bin**.
 
 <div style="text-align: center;">
   <table>
@@ -135,6 +127,7 @@ Enter the start address **0x8000000** to flash the firmware. Click on the **Star
 
     - Click on the refresh button next to the COM port in the STM32CubeProgrammer.
     - Check that you are selecting the correct COM port.
-    - Unplugging and replugging the board back to your computer
+    - Unplugging and replugging the board back to your computer.
     - Ensure that the CH340 drivers are installed on your computer.
-    - Follow the steps outlined earlier to set the board in Bootloader Mode
+    - Follow the steps outlined earlier to set the board in Bootloader Mode.
+    - If you have the Arduino IDE also open and had connected the board to the software, make sure to close the software before connecting to the STM32CubeProgrammer.

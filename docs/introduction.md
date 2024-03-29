@@ -1,5 +1,6 @@
 
 
+
 The [SparkFun Qwiic Pulsed Coherent Radar Sensor features Acconeer's XM125 module](https://www.sparkfun.com/products/24540) and adds powerful 60 GHz radar technology to your projects. This sensor isn't limited to surface detection; it can see through walls, cabinets, and even pockets (depending on the material), making it perfect for unique applications. Measure distances with millimeter precision, detect motion, the speed of an object, or even gestures!
 
 <center>
@@ -22,6 +23,10 @@ The [SparkFun Qwiic Pulsed Coherent Radar Sensor features Acconeer's XM125 modul
     </a>
 </div>
 </center>
+
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BdbWGezCCSg?si=iPh1UjlKv02k81HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 The XM125 boasts an impressive range of up to 20 meters, allowing you to create long-range sensing projects. Despite its power, the sensor has remarkably low in power consumption, which is ideal for battery-powered applications. The real magic lies in the sensor's ability to do more than measure distance. The XM125 can differentiate between stationary objects and moving targets using pulsed coherent radar. This means you can sense an object's presence and how fast it is moving.
 
@@ -111,8 +116,11 @@ You will need a soldering iron, solder, and [general soldering accessories](http
 * [Flush Cutters - Xcelite [TOL-14782]](https://www.sparkfun.com/products/14782)
 * [Hook-Up Wire - Assortment (Stranded, 22 AWG) [PRT-11375]](https://www.sparkfun.com/products/11375)
 * [Wire Stripper - 20-30 AWG Solid (22-32 AWG Stranded) [TOL-22263]](https://www.sparkfun.com/products/22263)
+* [Magnetic Third-Hand Kit [TOL-19944](https://www.sparkfun.com/products/19944)]
 * [Hobby Knife [TOL-09200]](https://www.sparkfun.com/products/9200)
 * [Multimeter [TOL-12966]](https://www.sparkfun.com/products/12966)
+* [Banana to Alligator Cable [CAB-00509](https://www.sparkfun.com/products/509)
+* [Segger J-Link EDU Mini [PGM-24078]](https://www.sparkfun.com/products/24078)
 -->
 
 <div class="grid cards hide col-4" markdown>
@@ -188,6 +196,21 @@ You will need a soldering iron, solder, and [general soldering accessories](http
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 
+-   <a href="https://www.sparkfun.com/products/19944">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/9/6/7/9/19944-Magnetic_Third-Hand_Kit-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Magnetic Third-Hand Kit">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/19944">
+      <b>Magnetic Third-Hand Kit</b>
+      <br />
+      TOL-19944
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+
 -   <a href="https://www.sparkfun.com/products/9200">
       <figure markdown>
         <img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Hobby Knife">
@@ -217,7 +240,40 @@ You will need a soldering iron, solder, and [general soldering accessories](http
       TOL-12966
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+
+-   <a href="https://www.sparkfun.com/products/509">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/3/4/9/509-feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Banana to Alligator Cable">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/509">
+      <b>Banana to Alligator Cable</b>
+      <br />
+      CAB-00509
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+
+-   <a href="https://www.sparkfun.com/products/24078">
+      <figure markdown>
+        <img src="https://cdn.sparkfun.com/assets/parts/2/4/4/0/2/24078-J-Link-Mini-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Segger J-Link EDU Mini">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/24078">
+      <b>Segger J-Link EDU Mini</b>
+      <br />
+      PGM-24078
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
+
+!!! note
+    For advanced users, the [Acconeer's XM125 Software User Guide](../assets/component_documentation/XM125%20Software%20User%20Guide.pdf) recommends using a Segger J-Link debug probe. They list the J-Link BASE Compact or an ST-Link debugger. For users that are using the XM125 module for hobby or educational use, you can also use the Segger J-Link EDU Mini. The J-Link EDU Mini is a stripped-down, budget-friendly model of the J-Link debug probe created for educational use. Even with its reduced size, it maintains the J-Link features.
 
 
 

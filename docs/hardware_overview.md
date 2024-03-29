@@ -3,8 +3,8 @@ In this section, we will highlight the hardware and pins that are broken out on 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Top_Cropped.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Top_Cropped.jpg" width="600px" height="600px" alt="Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Bottom_Cropped.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Bottom_Cropped.jpg" width="600px" height="600px" alt="Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Top_Cropped.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Top_Cropped.jpg" width="600px" height="600px" alt="Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Bottom_Cropped.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Bottom_Cropped.jpg" width="600px" height="600px" alt="Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Top View</i></td>
@@ -22,7 +22,7 @@ The board breaks out the Acconeer XM125 module with some application circuits.
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_A121_Highlighted.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_A121_Highlighted.jpg" width="600px" height="600px" alt="Acconeer XM125 Module"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_A121_Highlighted.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_A121_Highlighted.jpg" width="600px" height="600px" alt="Acconeer XM125 Module"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Acconeer XM125 Module</i></td>
@@ -45,6 +45,9 @@ Below are a few specifications from the datasheet.
         * Flash: 128kB
         * RAM: 68kB
 
+For users using the XM125 module to detect objects through a material (especially for those placing the board in an enclosure), you may want to check out [Acconeer's Hardware and Physical Integration Guideline PCR Sensors A111 & A121 User Guide](../assets/component_documentation/Hardware-integration-guideline.pdf).
+
+<div style="text-align: center"><a href="../assets/component_documentation/Hardware-integration-guideline.pdf" class="md-button">Acconeer's Hardware and Physical Integration Guideline PCR Sensors A111 & A121 User Guide</a></div>
 
 !!! note
     Due to the higher frequencies, pulsed coherent radar sensors may be regulated in certain countries. Be sure to check local regulations before use.
@@ -62,8 +65,8 @@ There are a variety of power and power-related nets broken out to the USB connec
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power.jpg" width="600px" height="600px" alt="Power from USB, Qwiic, and PTHs, Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power_Pins-Bottom.jpg" width="600px" height="600px" alt="Power from PTHs, Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power.jpg" width="600px" height="600px" alt="Power from USB, Qwiic, and PTHs, Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Power_Pins-Bottom.jpg" width="600px" height="600px" alt="Power from PTHs, Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Power from USB, Qwiic, and PTHs <br />(Top View)</i></td>
@@ -101,8 +104,8 @@ The board has two UARTs. The primary UART (not highlighted in the image below) i
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Debug_UART-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Debug_UART-Top.jpg" width="600px" height="600px" alt="Debugging UART Pins, Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_UART_Debugging_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_UART_Debugging_Pins-Bottom.jpg" width="600px" height="600px" alt="Debugging UART Pins, Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Debug_UART-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Debug_UART-Top.jpg" width="600px" height="600px" alt="Debugging UART Pins, Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_UART_Debugging_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_UART_Debugging_Pins-Bottom.jpg" width="600px" height="600px" alt="Debugging UART Pins, Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Debugging UART Pins <br />(Top View)</i></td>
@@ -127,8 +130,8 @@ There are two PTHs labeled **SDA** and **SCL** on one side of the board. These a
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Qwiic_I2C-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Qwiic_I2C-Top.jpg" width="600px" height="600px" alt="I2C Pins and Qwiic Connectors, Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_I2C_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_I2C_Pins-Bottom.jpg" width="600px" height="600px" alt="I2C Pins, Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Qwiic_I2C-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Qwiic_I2C-Top.jpg" width="600px" height="600px" alt="I2C Pins and Qwiic Connectors, Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_I2C_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_I2C_Pins-Bottom.jpg" width="600px" height="600px" alt="I2C Pins, Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>I2C and Qwiic Connectors <br />(Top View)</i></td>
@@ -151,8 +154,8 @@ We included two low profile buttons for reset and bootloader.
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot-Top.jpg" width="600px" height="600px" alt="Reset and Boot Pins and Buttons, Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot_Pins-Bottom.jpg" width="600px" height="600px" alt="Reset and Boot Pins , Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot-Top.jpg" width="600px" height="600px" alt="Reset and Boot Pins and Buttons, Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Reset_Boot_Pins-Bottom.jpg" width="600px" height="600px" alt="Reset and Boot Pins , Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Reset and Boot Pins and Buttons <br />(Top View)</i></td>
@@ -175,8 +178,8 @@ The edge of the board includes the SWDIO and SWDCLK programming pins. On the bac
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWDIO_SWDCLK-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWDIO_SWDCLK-Top.jpg" width="600px" height="600px" alt="SWD Pins, Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWD_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWD_Pins-Bottom.jpg" width="600px" height="600px" alt="SWD Pins, Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWDIO_SWDCLK-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWDIO_SWDCLK-Top.jpg" width="600px" height="600px" alt="SWD Pins, Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWD_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_SWD_Pins-Bottom.jpg" width="600px" height="600px" alt="SWD Pins, Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>SWD Pins <br />(Top View)</i></td>
@@ -200,8 +203,8 @@ Below are the other pins broken out:
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Other_Broken_Out_Pins-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Other_Broken_Out_Pins-Top.jpg" width="600px" height="600px" alt="SWD Pins, Top View"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Broken_Out_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Broken_Out_Pins-Bottom.jpg" width="600px" height="600px" alt="SWD Pins, Bottom View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Other_Broken_Out_Pins-Top.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Other_Broken_Out_Pins-Top.jpg" width="600px" height="600px" alt="SWD Pins, Top View"></a></td>
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Broken_Out_Pins-Bottom.jpg"><img src="../assets/img/SEN-24540-Pulsed-Coherent-Radar-Sensor_Acconeer_XM125_Broken_Out_Pins-Bottom.jpg" width="600px" height="600px" alt="SWD Pins, Bottom View"></a></td>
     </tr>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>SWD Pins <br />(Top View)</i></td>
