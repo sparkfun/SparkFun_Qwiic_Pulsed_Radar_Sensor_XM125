@@ -157,6 +157,9 @@ You should see an output similar to the image below. To test the presence detect
 
 Try adjusting the values `beginReading` and `endReading`. After uploading, try moving outside of the range. You will notice that the values change to a certain value when a presence is not detected.
 
+!!! note
+    The A121 sensor on the XM125 is advertised as measuring up to 20 meters. The actual measurable distance is dependent on the object size, shape, dielectric properties, and lens (e.g. water level measurements up to 20 meters with lens utilization, human presence detection up to 7 meters with lens-free utilization).
+
 
 
 ## I<sup>2</sup>C  Distance Detection Arduino Examples
@@ -257,3 +260,6 @@ You should see an output similar to the image below. The difference between this
     </tr>
   </table>
 </div>
+
+!!! note
+    The A121 sensor on the XM125 is advertised as measuring up to 20 meters. The actual measurable distance is dependent on the object size, shape, dielectric properties, and lens (e.g. water level measurements up to 20 meters with lens utilization, human presence detection up to 7 meters with lens-free utilization).
