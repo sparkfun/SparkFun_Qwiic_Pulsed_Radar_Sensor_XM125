@@ -36,7 +36,7 @@ Below are a few specifications from the datasheet.
     * A121
         * 60GHz Pulsed Coherent Radar (PCR)
         * Integrated Baseband, RF Front-End and Antenna in Package
-        * Detect Distance, Speed, Motion, and Objects up to 20 Meters Away
+        * Detect Distance, Speed, Motion, and Objects up to 20 Meters**&#42;** Away
         * Millimeter Precise Readings
         * Low Power Consumption
     * STMicroelectronics STM32L431CBY6
@@ -44,6 +44,9 @@ Below are a few specifications from the datasheet.
         * Clock Speed: 80 MHz
         * Flash: 128kB
         * RAM: 68kB
+
+!!! note "*Note"
+    The actual measurable distance is dependent on the object size, shape, dielectric properties, and lens (e.g. water level measurements up to 20 meters with lens utilization, human presence detection up to 7 meters with lens-free utilization).
 
 For users using the XM125 module to detect objects through a material (especially for those placing the board in an enclosure), you may want to check out [Acconeer's Hardware and Physical Integration Guideline PCR Sensors A111 & A121 User Guide](../assets/component_documentation/Hardware-integration-guideline.pdf).
 
