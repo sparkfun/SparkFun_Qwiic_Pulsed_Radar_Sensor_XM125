@@ -100,12 +100,22 @@ Click the **Flash** button to flash the firmware. After a few seconds, you shoul
 
 ### Getting Started with the Exploration Tool
 
-Click on **Stream** from the side navigation bar. Select **Serial**. Then select the COM port that the board enumerated to. In this case, it was **COM22 ()** just like when the board was flashed earlier with the Exploration Tool. Click the **Connect** button.
+Click on **Stream** from the side navigation bar. Select **Serial**. Then select the COM port that the board enumerated to. In this case, it was **COM22 ()** just like when the board was flashed earlier with the Exploration Tool.
 
 <div style="text-align: center;">
   <table>
     <tr style="vertical-align:middle;">
      <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Acconeer_Exploratoin_Tool_A121_Connect_XM125_SparkFun.JPG"><img src="../assets/img/Acconeer_Exploratoin_Tool_A121_Connect_XM125_SparkFun.JPG" width="600px" height="600px" alt="Connect to COM Port on the Acconeer Exploration Tool"></a></td>
+    </tr>
+  </table>
+</div>
+
+Configure the COM port by clicking on the gear between the COM port and Connect button. A small window will pop up to configure the COM port. Make sure to deselect the **Auto-connect** and manually enter the baud rate: **115200**. You may get an error when starting a measurements. Close the window by clicking the **X** button. Then click the **Connect** button.
+
+<div style="text-align: center;">
+  <table>
+    <tr style="vertical-align:middle;">
+     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/Acconeer_Exploration_Tool_XM125_Baud_Rate.JPG"><img src="../assets/img/Acconeer_Exploration_Tool_XM125_Baud_Rate.JPG" width="600px" height="600px" alt="Configure COM Port on the Acconeer Exploration Tool"></a></td>
     </tr>
   </table>
 </div>

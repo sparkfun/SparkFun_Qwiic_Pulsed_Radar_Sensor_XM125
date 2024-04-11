@@ -111,23 +111,7 @@ Enter the start address **0x8000000** to flash the firmware. Click on the **Star
   </table>
 </div>
 
+!!! note
+    Using the STM125CubeProgrammer is only one way to flash firmware to the XM125 using! You can also use the Acconeer Python Exploration Tool as well. For more information, check out the section on [Flashing Firmware with the Acconeer Exploration Tool](..\acconeer_python_exploration_tool\#flashing-firmware).
 
-!!! Troubleshooting
-    If you have problems uploading to the board, the board may not be set to Bootloader Mode.
-
-    <div style="text-align: center;">
-      <table>
-        <tr style="vertical-align:middle;">
-         <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/STM32CubeProgrammer_Error_Connecting.JPG"><img src="../assets/img/STM32CubeProgrammer_Error_Connecting.JPG" width="600px" height="600px" alt="Error Connecting SparkFun PCR Sensor Acconeer XM125 A121"></a></td>
-        </tr>
-      </table>
-    </div>
-
-    Try checking the following before attempting to flash the board again.
-
-    - Click on the refresh button next to the COM port in the STM32CubeProgrammer.
-    - Check that you are selecting the correct COM port.
-    - Unplugging and replugging the board back to your computer.
-    - Ensure that the CH340 drivers are installed on your computer.
-    - Follow the steps outlined earlier to set the board in Bootloader Mode.
-    - If you have the Arduino IDE also open and had connected the board to the software, make sure to close the software before connecting to the STM32CubeProgrammer.
+    <div style="text-align: center"><a href="..\acconeer_python_exploration_tool\#flashing-firmware" class="md-button">Flashing Firmware using the Acconeer Exploration Tool</a></div>
