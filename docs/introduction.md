@@ -350,7 +350,7 @@ For users connecting to the PTHs, you will need the following prototyping access
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/22890">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/1/6/2/7/2/22890-_1.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Header - 2x5 Pin 1.27mm SMD Unshrouded (JTAG)">
+        <img src="https://cdn.sparkfun.com/assets/parts/1/6/2/7/2/PRT-22890-header-2x5-pin-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Header - 2x5 Pin 1.27mm SMD Unshrouded (JTAG)">
       </figure>
     </a>
 
